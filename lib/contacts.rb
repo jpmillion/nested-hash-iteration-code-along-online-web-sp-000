@@ -16,5 +16,5 @@ require 'pry'
   
 def remove_strawberry(contacts)
   contacts.select do |key, value|
-    v
+    key == 'Freddy Mercury'
 end
