@@ -20,5 +20,5 @@ def remove_strawberry(contacts)
       key.each do |key, value|
         if key == :favorite_ice_cream_flavors
           if value == 'strawberry'
-            
+            value.shift
 end
