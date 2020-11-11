@@ -19,4 +19,6 @@ def remove_strawberry(contacts)
     if key == 'Freddy Mercury'
       key.each do |key, value|
         if key == :favorite_ice_cream_flavors
+          if value == 'strawberry'
+            
 end
