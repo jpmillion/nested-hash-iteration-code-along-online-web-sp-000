@@ -20,4 +20,8 @@ def remove_strawberry(contacts)
       key.each do |key, value|
         if key == :favorite_ice_cream_flavors
           key.delete('strawberry')
+        end
+      end
+    end
+  end
 end
